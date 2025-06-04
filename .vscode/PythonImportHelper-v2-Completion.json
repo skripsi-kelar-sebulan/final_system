@@ -1,0 +1,652 @@
+[
+    {
+        "label": "VishingDetector",
+        "importPath": "vishing_detector",
+        "description": "vishing_detector",
+        "isExtraImport": true,
+        "detail": "vishing_detector",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "StemmerFactory",
+        "importPath": "Sastrawi.Stemmer.StemmerFactory",
+        "description": "Sastrawi.Stemmer.StemmerFactory",
+        "isExtraImport": true,
+        "detail": "Sastrawi.Stemmer.StemmerFactory",
+        "documentation": {}
+    },
+    {
+        "label": "StopWordRemoverFactory",
+        "importPath": "Sastrawi.StopWordRemover.StopWordRemoverFactory",
+        "description": "Sastrawi.StopWordRemover.StopWordRemoverFactory",
+        "isExtraImport": true,
+        "detail": "Sastrawi.StopWordRemover.StopWordRemoverFactory",
+        "documentation": {}
+    },
+    {
+        "label": "torch",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch",
+        "description": "torch",
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "AutoTokenizer",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "BertConfig",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "BertPreTrainedModel",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "BertModel",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "VishingIndoBERTClassifier",
+        "importPath": "final_model.vishing_model",
+        "description": "final_model.vishing_model",
+        "isExtraImport": true,
+        "detail": "final_model.vishing_model",
+        "documentation": {}
+    },
+    {
+        "label": "clean_text",
+        "importPath": "final_model.text_utils",
+        "description": "final_model.text_utils",
+        "isExtraImport": true,
+        "detail": "final_model.text_utils",
+        "documentation": {}
+    },
+    {
+        "label": "tail_tokenizer",
+        "importPath": "final_model.text_utils",
+        "description": "final_model.text_utils",
+        "isExtraImport": true,
+        "detail": "final_model.text_utils",
+        "documentation": {}
+    },
+    {
+        "label": "torch.nn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "SequenceClassifierOutput",
+        "importPath": "transformers.modeling_outputs",
+        "description": "transformers.modeling_outputs",
+        "isExtraImport": true,
+        "detail": "transformers.modeling_outputs",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "librosa",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "librosa",
+        "description": "librosa",
+        "detail": "librosa",
+        "documentation": {}
+    },
+    {
+        "label": "lru_cache",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "io",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "io",
+        "description": "io",
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "soundfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "soundfile",
+        "description": "soundfile",
+        "detail": "soundfile",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "whisper_online",
+        "description": "whisper_online",
+        "isExtraImport": true,
+        "detail": "whisper_online",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "line_packet",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "line_packet",
+        "description": "line_packet",
+        "detail": "line_packet",
+        "documentation": {}
+    },
+    {
+        "label": "socket",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "socket",
+        "description": "socket",
+        "detail": "socket",
+        "documentation": {}
+    },
+    {
+        "label": "asr_factory",
+        "importPath": "whisper_streaming.whisper_online",
+        "description": "whisper_streaming.whisper_online",
+        "isExtraImport": true,
+        "detail": "whisper_streaming.whisper_online",
+        "documentation": {}
+    },
+    {
+        "label": "OnlineASRProcessor",
+        "importPath": "whisper_streaming.whisper_online",
+        "description": "whisper_streaming.whisper_online",
+        "isExtraImport": true,
+        "detail": "whisper_streaming.whisper_online",
+        "documentation": {}
+    },
+    {
+        "label": "speech_recognition",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "speech_recognition",
+        "description": "speech_recognition",
+        "detail": "speech_recognition",
+        "documentation": {}
+    },
+    {
+        "label": "sounddevice",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sounddevice",
+        "description": "sounddevice",
+        "detail": "sounddevice",
+        "documentation": {}
+    },
+    {
+        "label": "Queue",
+        "importPath": "queue",
+        "description": "queue",
+        "isExtraImport": true,
+        "detail": "queue",
+        "documentation": {}
+    },
+    {
+        "label": "torch.nn.functional",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.nn.functional",
+        "description": "torch.nn.functional",
+        "detail": "torch.nn.functional",
+        "documentation": {}
+    },
+    {
+        "label": "threading",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "threading",
+        "description": "threading",
+        "detail": "threading",
+        "documentation": {}
+    },
+    {
+        "label": "psutil,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "psutil.",
+        "description": "psutil.",
+        "detail": "psutil.",
+        "documentation": {}
+    },
+    {
+        "label": "clean_text",
+        "kind": 2,
+        "importPath": "final_model.text_utils",
+        "description": "final_model.text_utils",
+        "peekOfCode": "def clean_text(text, stopwords=stopwords, informal_dict=informal_dict):\n    text = text.lower()\n    text = re.sub(r'\\s+', ' ', text)\n    text = re.sub(r'[^\\w\\s]', '', text)\n    text = text.strip()\n    words = text.split()\n    words = [informal_dict.get(word, word) for word in words]\n    words = [word for word in words if word not in stopwords]\n    text = ' '.join(words)\n    text = stemmer.stem(text)",
+        "detail": "final_model.text_utils",
+        "documentation": {}
+    },
+    {
+        "label": "tail_tokenizer",
+        "kind": 2,
+        "importPath": "final_model.text_utils",
+        "description": "final_model.text_utils",
+        "peekOfCode": "def tail_tokenizer(text, tokenizer, max_length=128):\n    encoded = tokenizer(\n        text,\n        add_special_tokens=False,\n        return_attention_mask=True,\n        return_token_type_ids=False\n    )\n    input_ids = encoded['input_ids']\n    attention_mask = encoded['attention_mask']\n    if len(input_ids) <= max_length:",
+        "detail": "final_model.text_utils",
+        "documentation": {}
+    },
+    {
+        "label": "stopword_factory",
+        "kind": 5,
+        "importPath": "final_model.text_utils",
+        "description": "final_model.text_utils",
+        "peekOfCode": "stopword_factory = StopWordRemoverFactory()\nstemmer_factory = StemmerFactory()\nstopwords = set(stopword_factory.get_stop_words())\nstemmer = stemmer_factory.create_stemmer()\ninformal_dict = {\n    'gak': 'tidak', 'ga': 'tidak', 'nggak': 'tidak',\n    'aja': 'saja', 'udah': 'sudah', 'ngga': 'tidak',\n    'kalo': 'kalau'\n}\ndef clean_text(text, stopwords=stopwords, informal_dict=informal_dict):",
+        "detail": "final_model.text_utils",
+        "documentation": {}
+    },
+    {
+        "label": "stemmer_factory",
+        "kind": 5,
+        "importPath": "final_model.text_utils",
+        "description": "final_model.text_utils",
+        "peekOfCode": "stemmer_factory = StemmerFactory()\nstopwords = set(stopword_factory.get_stop_words())\nstemmer = stemmer_factory.create_stemmer()\ninformal_dict = {\n    'gak': 'tidak', 'ga': 'tidak', 'nggak': 'tidak',\n    'aja': 'saja', 'udah': 'sudah', 'ngga': 'tidak',\n    'kalo': 'kalau'\n}\ndef clean_text(text, stopwords=stopwords, informal_dict=informal_dict):\n    text = text.lower()",
+        "detail": "final_model.text_utils",
+        "documentation": {}
+    },
+    {
+        "label": "stopwords",
+        "kind": 5,
+        "importPath": "final_model.text_utils",
+        "description": "final_model.text_utils",
+        "peekOfCode": "stopwords = set(stopword_factory.get_stop_words())\nstemmer = stemmer_factory.create_stemmer()\ninformal_dict = {\n    'gak': 'tidak', 'ga': 'tidak', 'nggak': 'tidak',\n    'aja': 'saja', 'udah': 'sudah', 'ngga': 'tidak',\n    'kalo': 'kalau'\n}\ndef clean_text(text, stopwords=stopwords, informal_dict=informal_dict):\n    text = text.lower()\n    text = re.sub(r'\\s+', ' ', text)",
+        "detail": "final_model.text_utils",
+        "documentation": {}
+    },
+    {
+        "label": "stemmer",
+        "kind": 5,
+        "importPath": "final_model.text_utils",
+        "description": "final_model.text_utils",
+        "peekOfCode": "stemmer = stemmer_factory.create_stemmer()\ninformal_dict = {\n    'gak': 'tidak', 'ga': 'tidak', 'nggak': 'tidak',\n    'aja': 'saja', 'udah': 'sudah', 'ngga': 'tidak',\n    'kalo': 'kalau'\n}\ndef clean_text(text, stopwords=stopwords, informal_dict=informal_dict):\n    text = text.lower()\n    text = re.sub(r'\\s+', ' ', text)\n    text = re.sub(r'[^\\w\\s]', '', text)",
+        "detail": "final_model.text_utils",
+        "documentation": {}
+    },
+    {
+        "label": "informal_dict",
+        "kind": 5,
+        "importPath": "final_model.text_utils",
+        "description": "final_model.text_utils",
+        "peekOfCode": "informal_dict = {\n    'gak': 'tidak', 'ga': 'tidak', 'nggak': 'tidak',\n    'aja': 'saja', 'udah': 'sudah', 'ngga': 'tidak',\n    'kalo': 'kalau'\n}\ndef clean_text(text, stopwords=stopwords, informal_dict=informal_dict):\n    text = text.lower()\n    text = re.sub(r'\\s+', ' ', text)\n    text = re.sub(r'[^\\w\\s]', '', text)\n    text = text.strip()",
+        "detail": "final_model.text_utils",
+        "documentation": {}
+    },
+    {
+        "label": "VishingDetector",
+        "kind": 6,
+        "importPath": "final_model.vishing_detector",
+        "description": "final_model.vishing_detector",
+        "peekOfCode": "class VishingDetector:\n    def __init__(self, model_path='final_model/model/', tokenizer_name='indobenchmark/indobert-base-p1', threshold=0.5, max_length=128):\n        self.tokenizer = AutoTokenizer.from_pretrained(tokenizer_name, use_fast=True)\n        config = BertConfig.from_pretrained(model_path)\n        self.model = VishingIndoBERTClassifier.from_pretrained(model_path, config=config)\n        self.model.eval()\n        self.threshold = threshold\n        self.max_length = max_length\n    def predict(self, text):\n        clean = clean_text(text)",
+        "detail": "final_model.vishing_detector",
+        "documentation": {}
+    },
+    {
+        "label": "VishingIndoBERTClassifier",
+        "kind": 6,
+        "importPath": "final_model.vishing_model",
+        "description": "final_model.vishing_model",
+        "peekOfCode": "class VishingIndoBERTClassifier(BertPreTrainedModel):\n    def __init__(self, config):\n        super().__init__(config)\n        self.bert = BertModel(config)\n        self.dropout = nn.Dropout(0.5)\n        self.classifier = nn.Linear(config.hidden_size, 1)\n        self.init_weights()\n        self.loss_fn = nn.BCEWithLogitsLoss()\n    def forward(self, input_ids=None, attention_mask=None, labels=None):\n        outputs = self.bert(input_ids=input_ids, attention_mask=attention_mask)",
+        "detail": "final_model.vishing_model",
+        "documentation": {}
+    },
+    {
+        "label": "send_one_line",
+        "kind": 2,
+        "importPath": "whisper_streaming.line_packet",
+        "description": "whisper_streaming.line_packet",
+        "peekOfCode": "def send_one_line(socket, text, pad_zeros=False):\n    \"\"\"Sends a line of text over the given socket.\n    The 'text' argument should contain a single line of text (line break\n    characters are optional). Line boundaries are determined by Python's\n    str.splitlines() function [1]. We also count '\\0' as a line terminator.\n    If 'text' contains multiple lines then only the first will be sent.\n    If the send fails then an exception will be raised.\n    [1] https://docs.python.org/3.5/library/stdtypes.html#str.splitlines\n    Args:\n        socket: a socket object.",
+        "detail": "whisper_streaming.line_packet",
+        "documentation": {}
+    },
+    {
+        "label": "receive_one_line",
+        "kind": 2,
+        "importPath": "whisper_streaming.line_packet",
+        "description": "whisper_streaming.line_packet",
+        "peekOfCode": "def receive_one_line(socket):\n    \"\"\"Receives a line of text from the given socket.\n    This function will (attempt to) receive a single line of text. If data is\n    currently unavailable then it will block until data becomes available or\n    the sender has closed the connection (in which case it will return an\n    empty string).\n    The string should not contain any newline characters, but if it does then\n    only the first line will be returned.\n    Args:\n        socket: a socket object.",
+        "detail": "whisper_streaming.line_packet",
+        "documentation": {}
+    },
+    {
+        "label": "receive_lines",
+        "kind": 2,
+        "importPath": "whisper_streaming.line_packet",
+        "description": "whisper_streaming.line_packet",
+        "peekOfCode": "def receive_lines(socket):\n    try:\n        data = socket.recv(PACKET_SIZE)\n    except BlockingIOError:\n        return []\n    if data is None:  # Connection has been closed.\n        return None\n    # TODO Is there a better way of handling bad input than 'replace'?\n    text = data.decode('utf-8', errors='replace').strip('\\0')\n    lines = text.split('\\n')",
+        "detail": "whisper_streaming.line_packet",
+        "documentation": {}
+    },
+    {
+        "label": "PACKET_SIZE",
+        "kind": 5,
+        "importPath": "whisper_streaming.line_packet",
+        "description": "whisper_streaming.line_packet",
+        "peekOfCode": "PACKET_SIZE = 65536\ndef send_one_line(socket, text, pad_zeros=False):\n    \"\"\"Sends a line of text over the given socket.\n    The 'text' argument should contain a single line of text (line break\n    characters are optional). Line boundaries are determined by Python's\n    str.splitlines() function [1]. We also count '\\0' as a line terminator.\n    If 'text' contains multiple lines then only the first will be sent.\n    If the send fails then an exception will be raised.\n    [1] https://docs.python.org/3.5/library/stdtypes.html#str.splitlines\n    Args:",
+        "detail": "whisper_streaming.line_packet",
+        "documentation": {}
+    },
+    {
+        "label": "VADIterator",
+        "kind": 6,
+        "importPath": "whisper_streaming.silero_vad_iterator",
+        "description": "whisper_streaming.silero_vad_iterator",
+        "peekOfCode": "class VADIterator:\n    def __init__(self,\n                 model,\n                 threshold: float = 0.5,\n                 sampling_rate: int = 16000,\n                 min_silence_duration_ms: int = 500,  # makes sense on one recording that I checked\n                 speech_pad_ms: int = 100             # same \n                 ):\n        \"\"\"\n        Class for stream imitation",
+        "detail": "whisper_streaming.silero_vad_iterator",
+        "documentation": {}
+    },
+    {
+        "label": "FixedVADIterator",
+        "kind": 6,
+        "importPath": "whisper_streaming.silero_vad_iterator",
+        "description": "whisper_streaming.silero_vad_iterator",
+        "peekOfCode": "class FixedVADIterator(VADIterator):\n    '''It fixes VADIterator by allowing to process any audio length, not only exactly 512 frames at once.\n    If audio to be processed at once is long and multiple voiced segments detected, \n    then __call__ returns the start of the first segment, and end (or middle, which means no end) of the last segment. \n    '''\n    def reset_states(self):\n        super().reset_states()\n        self.buffer = np.array([],dtype=np.float32)\n    def __call__(self, x, return_seconds=False):\n        self.buffer = np.append(self.buffer, x) ",
+        "detail": "whisper_streaming.silero_vad_iterator",
+        "documentation": {}
+    },
+    {
+        "label": "ASRBase",
+        "kind": 6,
+        "importPath": "whisper_streaming.whisper_online",
+        "description": "whisper_streaming.whisper_online",
+        "peekOfCode": "class ASRBase:\n    sep = \" \"   # join transcribe words with this character (\" \" for whisper_timestamped,\n                # \"\" for faster-whisper because it emits the spaces when neeeded)\n    def __init__(self, lan, modelsize=None, cache_dir=None, model_dir=None, logfile=sys.stderr):\n        self.logfile = logfile\n        self.transcribe_kargs = {}\n        if lan == \"auto\":\n            self.original_language = None\n        else:\n            self.original_language = lan",
+        "detail": "whisper_streaming.whisper_online",
+        "documentation": {}
+    },
+    {
+        "label": "FasterWhisperASR",
+        "kind": 6,
+        "importPath": "whisper_streaming.whisper_online",
+        "description": "whisper_streaming.whisper_online",
+        "peekOfCode": "class FasterWhisperASR(ASRBase):\n    \"\"\"Uses faster-whisper library as the backend. Works much faster, appx 4-times (in offline mode). For GPU, it requires installation with a specific CUDNN version.\n    \"\"\"\n    sep = \"\"\n    def load_model(self, modelsize=None, cache_dir=None, model_dir=None):\n        from faster_whisper import WhisperModel\n#        logging.getLogger(\"faster_whisper\").setLevel(logger.level)\n        if model_dir is not None:\n            logger.debug(f\"Loading whisper model from model_dir {model_dir}. modelsize and cache_dir parameters are not used.\")\n            model_size_or_path = model_dir",
+        "detail": "whisper_streaming.whisper_online",
+        "documentation": {}
+    },
+    {
+        "label": "HypothesisBuffer",
+        "kind": 6,
+        "importPath": "whisper_streaming.whisper_online",
+        "description": "whisper_streaming.whisper_online",
+        "peekOfCode": "class HypothesisBuffer:\n    def __init__(self, logfile=sys.stderr):\n        self.commited_in_buffer = []\n        self.buffer = []\n        self.new = []\n        self.last_commited_time = 0\n        self.last_commited_word = None\n        self.logfile = logfile\n    def insert(self, new, offset):\n        # compare self.commited_in_buffer and new. It inserts only the words in new that extend the commited_in_buffer, it means they are roughly behind last_commited_time and new in content",
+        "detail": "whisper_streaming.whisper_online",
+        "documentation": {}
+    },
+    {
+        "label": "OnlineASRProcessor",
+        "kind": 6,
+        "importPath": "whisper_streaming.whisper_online",
+        "description": "whisper_streaming.whisper_online",
+        "peekOfCode": "class OnlineASRProcessor:\n    SAMPLING_RATE = 16000\n    def __init__(self, asr, tokenizer=None, buffer_trimming=(\"segment\", 15), logfile=sys.stderr):\n        \"\"\"asr: WhisperASR object\n        tokenizer: sentence tokenizer object for the target language. Must have a method *split* that behaves like the one of MosesTokenizer. It can be None, if \"segment\" buffer trimming option is used, then tokenizer is not used at all.\n        (\"segment\", 15)\n        buffer_trimming: a pair of (option, seconds), where option is either \"sentence\" or \"segment\", and seconds is a number. Buffer is trimmed if it is longer than \"seconds\" threshold. Default is the most recommended option.\n        logfile: where to store the log. \n        \"\"\"\n        self.asr = asr",
+        "detail": "whisper_streaming.whisper_online",
+        "documentation": {}
+    },
+    {
+        "label": "VACOnlineASRProcessor",
+        "kind": 6,
+        "importPath": "whisper_streaming.whisper_online",
+        "description": "whisper_streaming.whisper_online",
+        "peekOfCode": "class VACOnlineASRProcessor(OnlineASRProcessor):\n    '''Wraps OnlineASRProcessor with VAC (Voice Activity Controller). \n    It works the same way as OnlineASRProcessor: it receives chunks of audio (e.g. 0.04 seconds), \n    it runs VAD and continuously detects whether there is speech or not. \n    When it detects end of speech (non-voice for 500ms), it makes OnlineASRProcessor to end the utterance immediately.\n    '''\n    def __init__(self, online_chunk_size, *a, **kw):\n        self.online_chunk_size = online_chunk_size\n        self.online = OnlineASRProcessor(*a, **kw)\n        # VAC:",
+        "detail": "whisper_streaming.whisper_online",
+        "documentation": {}
+    },
+    {
+        "label": "load_audio",
+        "kind": 2,
+        "importPath": "whisper_streaming.whisper_online",
+        "description": "whisper_streaming.whisper_online",
+        "peekOfCode": "def load_audio(fname):\n    a, _ = librosa.load(fname, sr=16000, dtype=np.float32)\n    return a\ndef load_audio_chunk(fname, beg, end):\n    audio = load_audio(fname)\n    beg_s = int(beg*16000)\n    end_s = int(end*16000)\n    return audio[beg_s:end_s]\n# Whisper backend\nclass ASRBase:",
+        "detail": "whisper_streaming.whisper_online",
+        "documentation": {}
+    },
+    {
+        "label": "load_audio_chunk",
+        "kind": 2,
+        "importPath": "whisper_streaming.whisper_online",
+        "description": "whisper_streaming.whisper_online",
+        "peekOfCode": "def load_audio_chunk(fname, beg, end):\n    audio = load_audio(fname)\n    beg_s = int(beg*16000)\n    end_s = int(end*16000)\n    return audio[beg_s:end_s]\n# Whisper backend\nclass ASRBase:\n    sep = \" \"   # join transcribe words with this character (\" \" for whisper_timestamped,\n                # \"\" for faster-whisper because it emits the spaces when neeeded)\n    def __init__(self, lan, modelsize=None, cache_dir=None, model_dir=None, logfile=sys.stderr):",
+        "detail": "whisper_streaming.whisper_online",
+        "documentation": {}
+    },
+    {
+        "label": "add_shared_args",
+        "kind": 2,
+        "importPath": "whisper_streaming.whisper_online",
+        "description": "whisper_streaming.whisper_online",
+        "peekOfCode": "def add_shared_args(parser):\n    \"\"\"shared args for simulation (this entry point) and server\n    parser: argparse.ArgumentParser object\n    \"\"\"\n    parser.add_argument('--min-chunk-size', type=float, default=1.0, help='Minimum audio chunk size in seconds. It waits up to this time to do processing. If the processing takes shorter time, it waits, otherwise it processes the whole segment that was received by this time.')\n    parser.add_argument('--model', type=str, default='large-v2', choices=\"tiny.en,tiny,base.en,base,small.en,small,medium.en,medium,large-v1,large-v2,large-v3,large,large-v3-turbo\".split(\",\"),help=\"Name size of the Whisper model to use (default: large-v2). The model is automatically downloaded from the model hub if not present in model cache dir.\")\n    parser.add_argument('--model_cache_dir', type=str, default=None, help=\"Overriding the default model cache dir where models downloaded from the hub are saved\")\n    parser.add_argument('--model_dir', type=str, default=None, help=\"Dir where Whisper model.bin and other files are saved. This option overrides --model and --model_cache_dir parameter.\")\n    parser.add_argument('--lan', '--language', type=str, default='auto', help=\"Source language code, e.g. en,de,cs, or 'auto' for language detection.\")\n    parser.add_argument('--task', type=str, default='transcribe', choices=[\"transcribe\",\"translate\"],help=\"Transcribe or translate.\")",
+        "detail": "whisper_streaming.whisper_online",
+        "documentation": {}
+    },
+    {
+        "label": "asr_factory",
+        "kind": 2,
+        "importPath": "whisper_streaming.whisper_online",
+        "description": "whisper_streaming.whisper_online",
+        "peekOfCode": "def asr_factory(args, logfile=sys.stderr):\n    \"\"\"\n    Creates and configures an ASR and ASR Online instance based on the specified backend and arguments.\n    \"\"\"\n    backend = args.backend\n    asr_cls = FasterWhisperASR\n    # Only for FasterWhisperASR and WhisperTimestampedASR\n    size = args.model\n    t = time.time()\n    logger.info(f\"Loading Whisper {size} model for {args.lan}...\")",
+        "detail": "whisper_streaming.whisper_online",
+        "documentation": {}
+    },
+    {
+        "label": "set_logging",
+        "kind": 2,
+        "importPath": "whisper_streaming.whisper_online",
+        "description": "whisper_streaming.whisper_online",
+        "peekOfCode": "def set_logging(args,logger,other=\"_server\"):\n    logging.basicConfig(#format='%(name)s \n            format='%(levelname)s\\t%(message)s')\n    logger.setLevel(args.log_level)\n    logging.getLogger(\"whisper_online\"+other).setLevel(args.log_level)\n#    logging.getLogger(\"whisper_online_server\").setLevel(args.log_level)\nif __name__ == \"__main__\":\n    import argparse\n    parser = argparse.ArgumentParser()\n    parser.add_argument('audio_path', type=str, help=\"Filename of 16kHz mono channel wav, on which live streaming is simulated.\")",
+        "detail": "whisper_streaming.whisper_online",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "whisper_streaming.whisper_online",
+        "description": "whisper_streaming.whisper_online",
+        "peekOfCode": "logger = logging.getLogger(__name__)\n@lru_cache(10**6)\ndef load_audio(fname):\n    a, _ = librosa.load(fname, sr=16000, dtype=np.float32)\n    return a\ndef load_audio_chunk(fname, beg, end):\n    audio = load_audio(fname)\n    beg_s = int(beg*16000)\n    end_s = int(end*16000)\n    return audio[beg_s:end_s]",
+        "detail": "whisper_streaming.whisper_online",
+        "documentation": {}
+    },
+    {
+        "label": "WHISPER_LANG_CODES",
+        "kind": 5,
+        "importPath": "whisper_streaming.whisper_online",
+        "description": "whisper_streaming.whisper_online",
+        "peekOfCode": "WHISPER_LANG_CODES = \"af,am,ar,as,az,ba,be,bg,bn,bo,br,bs,ca,cs,cy,da,de,el,en,es,et,eu,fa,fi,fo,fr,gl,gu,ha,haw,he,hi,hr,ht,hu,hy,id,is,it,ja,jw,ka,kk,km,kn,ko,la,lb,ln,lo,lt,lv,mg,mi,mk,ml,mn,mr,ms,mt,my,ne,nl,nn,no,oc,pa,pl,ps,pt,ro,ru,sa,sd,si,sk,sl,sn,so,sq,sr,su,sv,sw,ta,te,tg,th,tk,tl,tr,tt,uk,ur,uz,vi,yi,yo,zh\".split(\",\")\n# def create_tokenizer(lan):\n#     \"\"\"returns an object that has split function that works like the one of MosesTokenizer\"\"\"\n#     assert lan in WHISPER_LANG_CODES, \"language must be Whisper's supported lang code: \" + \" \".join(WHISPER_LANG_CODES)\n#     if lan == \"uk\":\n#         import tokenize_uk\n#         class UkrainianTokenizer:\n#             def split(self, text):\n#                 return tokenize_uk.tokenize_sents(text)\n#         return UkrainianTokenizer()",
+        "detail": "whisper_streaming.whisper_online",
+        "documentation": {}
+    },
+    {
+        "label": "Connection",
+        "kind": 6,
+        "importPath": "whisper_streaming.whisper_online_server",
+        "description": "whisper_streaming.whisper_online_server",
+        "peekOfCode": "class Connection:\n    '''it wraps conn object'''\n    PACKET_SIZE = 32000*5*60 # 5 minutes # was: 65536\n    def __init__(self, conn):\n        self.conn = conn\n        self.last_line = \"\"\n        self.conn.setblocking(True)\n    def send(self, line):\n        '''it doesn't send the same line twice, because it was problematic in online-text-flow-events'''\n        if line == self.last_line:",
+        "detail": "whisper_streaming.whisper_online_server",
+        "documentation": {}
+    },
+    {
+        "label": "ServerProcessor",
+        "kind": 6,
+        "importPath": "whisper_streaming.whisper_online_server",
+        "description": "whisper_streaming.whisper_online_server",
+        "peekOfCode": "class ServerProcessor:\n    def __init__(self, c, online_asr_proc, min_chunk):\n        self.connection = c\n        self.online_asr_proc = online_asr_proc\n        self.min_chunk = min_chunk\n        self.last_end = None\n        self.is_first = True\n    def receive_audio_chunk(self):\n        # receive all audio that is available by this time\n        # blocks operation if less than self.min_chunk seconds is available",
+        "detail": "whisper_streaming.whisper_online_server",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "whisper_streaming.whisper_online_server",
+        "description": "whisper_streaming.whisper_online_server",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nparser = argparse.ArgumentParser()\n# server options\nparser.add_argument(\"--host\", type=str, default='localhost')\nparser.add_argument(\"--port\", type=int, default=43007)\nparser.add_argument(\"--warmup-file\", type=str, dest=\"warmup_file\", \n        help=\"The path to a speech audio wav file to warm up Whisper so that the very first chunk processing is fast. It can be e.g. https://github.com/ggerganov/whisper.cpp/raw/master/samples/jfk.wav .\")\n# options from whisper_online\nadd_shared_args(parser)\nargs = parser.parse_args()",
+        "detail": "whisper_streaming.whisper_online_server",
+        "documentation": {}
+    },
+    {
+        "label": "parser",
+        "kind": 5,
+        "importPath": "whisper_streaming.whisper_online_server",
+        "description": "whisper_streaming.whisper_online_server",
+        "peekOfCode": "parser = argparse.ArgumentParser()\n# server options\nparser.add_argument(\"--host\", type=str, default='localhost')\nparser.add_argument(\"--port\", type=int, default=43007)\nparser.add_argument(\"--warmup-file\", type=str, dest=\"warmup_file\", \n        help=\"The path to a speech audio wav file to warm up Whisper so that the very first chunk processing is fast. It can be e.g. https://github.com/ggerganov/whisper.cpp/raw/master/samples/jfk.wav .\")\n# options from whisper_online\nadd_shared_args(parser)\nargs = parser.parse_args()\nset_logging(args,logger,other=\"\")",
+        "detail": "whisper_streaming.whisper_online_server",
+        "documentation": {}
+    },
+    {
+        "label": "args",
+        "kind": 5,
+        "importPath": "whisper_streaming.whisper_online_server",
+        "description": "whisper_streaming.whisper_online_server",
+        "peekOfCode": "args = parser.parse_args()\nset_logging(args,logger,other=\"\")\n# setting whisper object by args \nSAMPLING_RATE = 16000\nsize = args.model\nlanguage = args.lan\nasr, online = asr_factory(args)\nmin_chunk = args.min_chunk_size\n# warm up the ASR because the very first transcribe takes more time than the others. \n# Test results in https://github.com/ufal/whisper_streaming/pull/81",
+        "detail": "whisper_streaming.whisper_online_server",
+        "documentation": {}
+    },
+    {
+        "label": "SAMPLING_RATE",
+        "kind": 5,
+        "importPath": "whisper_streaming.whisper_online_server",
+        "description": "whisper_streaming.whisper_online_server",
+        "peekOfCode": "SAMPLING_RATE = 16000\nsize = args.model\nlanguage = args.lan\nasr, online = asr_factory(args)\nmin_chunk = args.min_chunk_size\n# warm up the ASR because the very first transcribe takes more time than the others. \n# Test results in https://github.com/ufal/whisper_streaming/pull/81\nmsg = \"Whisper is not warmed up. The first chunk processing may take longer.\"\nif args.warmup_file:\n    if os.path.isfile(args.warmup_file):",
+        "detail": "whisper_streaming.whisper_online_server",
+        "documentation": {}
+    },
+    {
+        "label": "size",
+        "kind": 5,
+        "importPath": "whisper_streaming.whisper_online_server",
+        "description": "whisper_streaming.whisper_online_server",
+        "peekOfCode": "size = args.model\nlanguage = args.lan\nasr, online = asr_factory(args)\nmin_chunk = args.min_chunk_size\n# warm up the ASR because the very first transcribe takes more time than the others. \n# Test results in https://github.com/ufal/whisper_streaming/pull/81\nmsg = \"Whisper is not warmed up. The first chunk processing may take longer.\"\nif args.warmup_file:\n    if os.path.isfile(args.warmup_file):\n        a = load_audio_chunk(args.warmup_file,0,1)",
+        "detail": "whisper_streaming.whisper_online_server",
+        "documentation": {}
+    },
+    {
+        "label": "language",
+        "kind": 5,
+        "importPath": "whisper_streaming.whisper_online_server",
+        "description": "whisper_streaming.whisper_online_server",
+        "peekOfCode": "language = args.lan\nasr, online = asr_factory(args)\nmin_chunk = args.min_chunk_size\n# warm up the ASR because the very first transcribe takes more time than the others. \n# Test results in https://github.com/ufal/whisper_streaming/pull/81\nmsg = \"Whisper is not warmed up. The first chunk processing may take longer.\"\nif args.warmup_file:\n    if os.path.isfile(args.warmup_file):\n        a = load_audio_chunk(args.warmup_file,0,1)\n        asr.transcribe(a)",
+        "detail": "whisper_streaming.whisper_online_server",
+        "documentation": {}
+    },
+    {
+        "label": "min_chunk",
+        "kind": 5,
+        "importPath": "whisper_streaming.whisper_online_server",
+        "description": "whisper_streaming.whisper_online_server",
+        "peekOfCode": "min_chunk = args.min_chunk_size\n# warm up the ASR because the very first transcribe takes more time than the others. \n# Test results in https://github.com/ufal/whisper_streaming/pull/81\nmsg = \"Whisper is not warmed up. The first chunk processing may take longer.\"\nif args.warmup_file:\n    if os.path.isfile(args.warmup_file):\n        a = load_audio_chunk(args.warmup_file,0,1)\n        asr.transcribe(a)\n        logger.info(\"Whisper is warmed up.\")\n    else:",
+        "detail": "whisper_streaming.whisper_online_server",
+        "documentation": {}
+    },
+    {
+        "label": "msg",
+        "kind": 5,
+        "importPath": "whisper_streaming.whisper_online_server",
+        "description": "whisper_streaming.whisper_online_server",
+        "peekOfCode": "msg = \"Whisper is not warmed up. The first chunk processing may take longer.\"\nif args.warmup_file:\n    if os.path.isfile(args.warmup_file):\n        a = load_audio_chunk(args.warmup_file,0,1)\n        asr.transcribe(a)\n        logger.info(\"Whisper is warmed up.\")\n    else:\n        logger.critical(\"The warm up file is not available. \"+msg)\n        sys.exit(1)\nelse:",
+        "detail": "whisper_streaming.whisper_online_server",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def main(audio_file, model_type, model_size, debug, log_file, real_time, chunk_duration=2, ):\n    \"\"\"\n    Main function for transcription and vishing detection.\n    Args:\n        audio_file (str): Path to the audio file (None for real-time transcription).\n        model_type (str): Type of Whisper model (e.g., \"faster_whisper\").\n        model_size (str): Size of the Whisper model (e.g., \"large-v2\").\n        debug (bool): Enable debugging logs.\n        log_file (str): Path to the log file.\n        real_time (bool): Whether to run in real-time mode.",
+        "detail": "main",
+        "documentation": {}
+    }
+]
