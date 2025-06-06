@@ -47,6 +47,8 @@ Gunakan `pip` dan pastikan environment Python Anda telah terinstal:
 pip install -r requirements.txt
 ```
 
+
+
 > Jika `requirements.txt` belum tersedia, instal manual berdasarkan library yang digunakan.
 
 ### 3. Menjalankan Transkripsi dari File Audio
