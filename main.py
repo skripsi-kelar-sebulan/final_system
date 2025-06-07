@@ -268,25 +268,26 @@ if __name__ == "__main__":
 
     from argparse import Namespace
 
-    # Simulate argparse arguments for asr_factory
-    args_for_asr_factory = Namespace(
-        lan="id",  # Language code for Indonesian
-        model=args.model_size,
-        backend="faster-whisper",
-        model_cache_dir=None,
-        model_dir=None,
-        vad=False,
-        vac=False,
-        vac_chunk_size=0.04,
-        min_chunk_size=0.8,  # Duration of each audio chunk in seconds
-        buffer_trimming="segment",
-        buffer_trimming_sec=5,
-        log_level="INFO",
-        task="transcribe",  # Add the task attribute
-    )
+    if args.real_time:
+        # Simulate argparse arguments for asr_factory
+        args_for_asr_factory = Namespace(
+            lan="id",  # Language code for Indonesian
+            model=args.model_size,
+            backend="faster-whisper",
+            model_cache_dir=None,
+            model_dir=None,
+            vad=False,
+            vac=False,
+            vac_chunk_size=0.04,
+            min_chunk_size=0.8,  # Duration of each audio chunk in seconds
+            buffer_trimming="segment",
+            buffer_trimming_sec=5,
+            log_level="INFO",
+            task="transcribe",  # Add the task attribute
+        )
 
-    # Initialize ASR and Online Processor
-    asr, online_processor = asr_factory(args_for_asr_factory)
+        # Initialize ASR and Online Processor
+        asr, online_processor = asr_factory(args_for_asr_factory)
 
     from final_model.vishing_detector import VishingDetector
 
