@@ -176,7 +176,11 @@ def main(audio_file, model_type, model_size, debug, log_file, real_time, chunk_d
 
         from faster_whisper import WhisperModel
         # Load model
-        model = WhisperModel(model_size, compute_type="float16" if torch.cuda.is_available() else "int8")
+        model = WhisperModel(
+        model_size,
+        device="cuda" if torch.cuda.is_available() else "cpu",
+        compute_type="float16" if torch.cuda.is_available() else "int8"
+        )
 
         # Transcribe
         segments, info = model.transcribe(audio_file, beam_size=5)
