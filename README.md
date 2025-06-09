@@ -14,9 +14,11 @@ Proyek ini merupakan sistem deteksi voice phishing (vishing) otomatis berbasis t
 
 - Python 3
 - [faster-whisper](https://github.com/SYSTRAN/faster-whisper) untuk transkripsi audio.
+- [whisper_streaming](https://github.com/ufal/whisper_streaming) untuk transkripsi audio real-time.
 - `speech_recognition` dan `sounddevice` untuk audio real-time.
 - PyTorch untuk inference model klasifikasi vishing.
 - `VishingDetector` sebagai modul klasifikasi berbasis BERT yang telah dikembangkan.
+- 
 
 ## 🗂️ Struktur Folder (Singkat)
 
