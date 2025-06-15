@@ -212,6 +212,14 @@
         "documentation": {}
     },
     {
+        "label": "Namespace",
+        "importPath": "argparse",
+        "description": "argparse",
+        "isExtraImport": true,
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
         "label": "os",
         "kind": 6,
         "isExtraImport": true,
@@ -236,6 +244,23 @@
         "importPath": "socket",
         "description": "socket",
         "detail": "socket",
+        "documentation": {}
+    },
+    {
+        "label": "gradio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "gradio",
+        "description": "gradio",
+        "detail": "gradio",
+        "documentation": {}
+    },
+    {
+        "label": "VishingApp",
+        "importPath": "main_app",
+        "description": "main_app",
+        "isExtraImport": true,
+        "detail": "main_app",
         "documentation": {}
     },
     {
@@ -281,6 +306,14 @@
         "documentation": {}
     },
     {
+        "label": "Queue",
+        "importPath": "queue",
+        "description": "queue",
+        "isExtraImport": true,
+        "detail": "queue",
+        "documentation": {}
+    },
+    {
         "label": "torch.nn.functional",
         "kind": 6,
         "isExtraImport": true,
@@ -305,6 +338,30 @@
         "importPath": "psutil.",
         "description": "psutil.",
         "detail": "psutil.",
+        "documentation": {}
+    },
+    {
+        "label": "is correct",
+        "importPath": "final_model.vishing_detector import VishingDetector # Make sure this",
+        "description": "final_model.vishing_detector import VishingDetector # Make sure this",
+        "isExtraImport": true,
+        "detail": "final_model.vishing_detector import VishingDetector # Make sure this",
+        "documentation": {}
+    },
+    {
+        "label": "is correct",
+        "importPath": "whisper_streaming.whisper_online import asr_factory # Make sure this",
+        "description": "whisper_streaming.whisper_online import asr_factory # Make sure this",
+        "isExtraImport": true,
+        "detail": "whisper_streaming.whisper_online import asr_factory # Make sure this",
+        "documentation": {}
+    },
+    {
+        "label": "WhisperModel",
+        "importPath": "faster_whisper",
+        "description": "faster_whisper",
+        "isExtraImport": true,
+        "detail": "faster_whisper",
         "documentation": {}
     },
     {
@@ -641,12 +698,66 @@
         "documentation": {}
     },
     {
+        "label": "realtime_vishing_detection",
+        "kind": 2,
+        "importPath": "gui",
+        "description": "gui",
+        "peekOfCode": "def realtime_vishing_detection(run_state):\n    \"\"\"\n    Generator function for the REAL-TIME tab.\n    \"\"\"\n    if run_state['running']: # Prevent starting if already running\n        return\n    run_state['running'] = True\n    app.is_running = True\n    label_output = None\n    # Initial UI update when starting",
+        "detail": "gui",
+        "documentation": {}
+    },
+    {
+        "label": "stop_detection",
+        "kind": 2,
+        "importPath": "gui",
+        "description": "gui",
+        "peekOfCode": "def stop_detection(run_state):\n    \"\"\"\n    -- CORRECTED LOGIC --\n    Stops the real-time detection loop by setting flags and providing\n    immediate UI feedback.\n    \"\"\"\n    if run_state['running']:\n        run_state['running'] = False\n        app.stop_realtime_processing()\n    # Return immediate feedback to the user",
+        "detail": "gui",
+        "documentation": {}
+    },
+    {
+        "label": "offline_vishing_detection",
+        "kind": 2,
+        "importPath": "gui",
+        "description": "gui",
+        "peekOfCode": "def offline_vishing_detection(audio_file):\n    \"\"\"\n    Function for the OFFLINE tab. Processes an uploaded audio file.\n    \"\"\"\n    if audio_file is None:\n        return \"Please upload an audio file first.\", None, \"Status: Waiting for file.\"\n    result = app.process_offline(audio_file)\n    label = result['label']\n    score = result['score']\n    if label == \"Vishing\":",
+        "detail": "gui",
+        "documentation": {}
+    },
+    {
+        "label": "args",
+        "kind": 5,
+        "importPath": "gui",
+        "description": "gui",
+        "peekOfCode": "args = Namespace(model_size='small')\napp = VishingApp(args)\n# --- Gradio Functions ---\ndef realtime_vishing_detection(run_state):\n    \"\"\"\n    Generator function for the REAL-TIME tab.\n    \"\"\"\n    if run_state['running']: # Prevent starting if already running\n        return\n    run_state['running'] = True",
+        "detail": "gui",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "gui",
+        "description": "gui",
+        "peekOfCode": "app = VishingApp(args)\n# --- Gradio Functions ---\ndef realtime_vishing_detection(run_state):\n    \"\"\"\n    Generator function for the REAL-TIME tab.\n    \"\"\"\n    if run_state['running']: # Prevent starting if already running\n        return\n    run_state['running'] = True\n    app.is_running = True",
+        "detail": "gui",
+        "documentation": {}
+    },
+    {
         "label": "main",
         "kind": 2,
         "importPath": "main",
         "description": "main",
         "peekOfCode": "def main(audio_file, model_type, model_size, debug, log_file, real_time, chunk_duration=2, ):\n    \"\"\"\n    Main function for transcription and vishing detection.\n    Args:\n        audio_file (str): Path to the audio file (None for real-time transcription).\n        model_type (str): Type of Whisper model (e.g., \"faster_whisper\").\n        model_size (str): Size of the Whisper model (e.g., \"large-v2\").\n        debug (bool): Enable debugging logs.\n        log_file (str): Path to the log file.\n        real_time (bool): Whether to run in real-time mode.",
         "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "VishingApp",
+        "kind": 6,
+        "importPath": "main_app",
+        "description": "main_app",
+        "peekOfCode": "class VishingApp:\n    def __init__(self, args):\n        self.args = args\n        self.transcription_history = \"\"\n        self.is_running = False\n        print(f\"Loading offline whisper model '{self.args.model_size}'...\")\n        self.offline_model = WhisperModel(self.args.model_size, device=\"cuda\", compute_type=\"float16\")\n        # IMPORTANT: To run this code, either use the MockDetector for testing\n        # or replace it with your actual VishingDetector and make sure you have the model files.\n        self.detector = VishingDetector() # <-- UNCOMMENT THIS FOR YOUR REAL MODEL",
+        "detail": "main_app",
         "documentation": {}
     }
 ]
